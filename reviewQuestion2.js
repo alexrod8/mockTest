@@ -1,18 +1,17 @@
 let greeting = 'Hello';
 
 while (true) {
-  greeting = 'Hi';
+   greeting = 'Hi';
   break;
 }
 
 console.log(greeting);
 
-/* on line 1 we are declaring a variable greeting and initalizing to a string `hello`.
-On line 3 and 6 we are defing a loop that will excute forever unless something happends to end the loop.
-As the loops begins on line 4 we are reassigning the value of the global variable greeting to a 
-string `hi`. then on line 5 we use the break statement which causes the loop to end. finally on line 8 we output the string `hi`
-to the console since greeting got reassigned to `hi` since greeting is a global variable which can be used anywhere in the code. 
-
-
+/* On line 1 we declare a variable `greeting` and initialize it to a string `hello`.
+Line 3-6 we are definng a while loop that will run forever unless it breaks. In the while loop on
+we reassign the global variable `greeting` value to `hi`. Then on line 5 we use the break
+statment to get out of the loop. Finally on line 8 we output the global variable greeting 
+which has a value of hi to the console because in the loop greeting was reassgined to the value 
+`hi`.
 
 */
