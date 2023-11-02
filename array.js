@@ -1,7 +1,6 @@
-//on line 1 we are declaring a variable named petlistNames and initalizing it to an array with a list of pet names
-// on line 7 we are then console.log the variable petListNames and gives us an output of an array
+let flintstones = ["Fred", "Wilma"];
+flintstones.push(["Barney", "Betty"]);
+flintstones.push(["Bambam", "Pebbles"]);
 
-let petListNames = ['asta', 'butterScotch', 'pudding', 'neptune', 'darwin'];
+ console.log(flintstones.flat());
 
-
-console.log(petListNames);
